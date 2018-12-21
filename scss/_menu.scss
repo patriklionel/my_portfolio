@@ -1,9 +1,10 @@
 //Languages box
 .languages {
-  position: absolute;
+  position: fixed;
   right: 4.5vw;
   top: 6vh;
   text-decoration: none;
+
   .lang-item {
     list-style: none;
   }
@@ -11,8 +12,10 @@
 
 .lang-link {
   color: lighten($primary-color, 60);
+  list-style: none;
   &:hover {
     color: $secondary-color;
+    @include easeOut;
   }
 }
 // Menu Button
