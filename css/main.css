@@ -1,5 +1,5 @@
 .languages {
-  position: absolute;
+  position: fixed;
   right: 4.5vw;
   top: 6vh;
   text-decoration: none; }
@@ -7,9 +7,11 @@
     list-style: none; }
 
 .lang-link {
-  color: #dddddd; }
+  color: #dddddd;
+  list-style: none; }
   .lang-link:hover {
-    color: #00a000bd; }
+    color: #00a000bd;
+    transition: all 0.5s ease-out; }
 
 .menu-btn {
   position: absolute;
