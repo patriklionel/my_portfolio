@@ -1,9 +1,26 @@
+//Languages box
+.languages {
+  position: absolute;
+  right: 4.5vw;
+  top: 6vh;
+  text-decoration: none;
+  .lang-item {
+    list-style: none;
+  }
+}
+
+.lang-link {
+  color: lighten($primary-color, 60);
+  &:hover {
+    color: $secondary-color;
+  }
+}
 // Menu Button
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
-  top: 35px;
+  right: 4vw;
+  top: 4vh;
   cursor: pointer;
   @include easeOut;
 

@@ -1,8 +1,21 @@
+.languages {
+  position: absolute;
+  right: 4.5vw;
+  top: 6vh;
+  text-decoration: none; }
+  .languages .lang-item {
+    list-style: none; }
+
+.lang-link {
+  color: #dddddd; }
+  .lang-link:hover {
+    color: #00a000bd; }
+
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
-  top: 35px;
+  right: 4vw;
+  top: 4vh;
   cursor: pointer;
   transition: all 0.5s ease-out; }
   .menu-btn .btn-line {
@@ -202,11 +215,11 @@ main {
   .boxes div {
     font-size: 2rem;
     border: 3px solid #fff;
-    padding: 1rem 2rem;
+    padding: 2rem 4rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
-      padding: 2rem 4rem;
+      padding: 1rem 2rem;
       background: #00a000bd;
       color: #fff; }
       .boxes div:hover span {
