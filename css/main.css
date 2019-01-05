@@ -288,6 +288,9 @@ main {
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
+  .idioma,
+  .edu {
+    list-style-position: inside; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
